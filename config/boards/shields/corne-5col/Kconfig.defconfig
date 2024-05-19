@@ -1,0 +1,22 @@
+if SHIELD_CORNE-5COL_DONGLE
+
+config ZMK_KEYBOARD_NAME
+	default "Corne Dongle"
+	
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+	
+config ZMK_USB
+	default y
+
+endif
+
+if SHIELD_CORNE-5COL_LEFT || SHIELD_CORNE-5COL_RIGHT || SHIELD_CORNE-5COL_DONGLE
+
+config ZMK_SPLIT
+	default y
+
+config ZMK_BLE
+	default y
+	
+endif

@@ -1,0 +1,8 @@
+config SHIELD_CORNE-5COL_LEFT
+	def_bool $(shields_list_contains, corne-5col_left)
+
+config SHIELD_CORNE-5COL_RIGHT
+	def_bool $(shields_list_contains, corne-5col_right)
+
+config SHIELD_CORNE-5COL_DONGLE
+	def_bool $(shields_list_contains, corne-5col_dongle)

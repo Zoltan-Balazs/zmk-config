@@ -1,0 +1,4 @@
+#include "../../../../miryoku/custom_config.h"
+#include "../../../../miryoku/corne.h"
+#include "../../../../miryoku/miryoku.dtsi"
+
