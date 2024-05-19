@@ -1,4 +1,4 @@
-#include "../../../../miryoku/miryoku.dtsi"
+#include "corne-5col.dtsi"
 
 &kscan0 {
   col-gpios
